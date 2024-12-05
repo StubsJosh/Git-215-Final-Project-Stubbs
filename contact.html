@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Elevated Resorts Contact</title>
+    <meta name="description" content="A resort that has cats that you can hang with.">
+    <meta name="author" content="Joshua Stubbs">
+    <!-- My FAVICON -->
+    <link rel="shortcut icon" href="images/Favicon Sizes/android-icon-192x192.png">
+    <link rel="stylesheet" href="cssobfuscated.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Elevated Resorts Contact</a></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Accommodations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="introduction">
+            <img src="images/swiss-valley.jpg" alt="Are you looking for an adventure" width="1000">
+            <h2>Contact Us</h2>
+            <p>
+                Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us! Required fields are marked with a *.
+            </p>
+        </section>
+        <section>
+            <img src="images/swiss-sunset.jpg" alt="Swiss Sunset">
+            <section>
+                
+                <form action="https://wp.zybooks.com/form-viewer.php" target="_blank" method="POST">
+                    <div id="form-left">
+                        <!-- Name -->
+                        <label for="user-full-name">Your Full Name: <span class="required">*</span></label><br>
+                        <input type="text" name="user-full-name" id="user-full-name" required><br>
+            
+                        <!-- Email -->
+                        <label for="user-email">Email Address: <span class="required">*</span></label><br>
+                        <input type="email" name="user-email" id="user-email" required><br>
+            
+                        <!-- Phone -->
+                        <label for="user-phone">Phone Number: <span class="required">*</span></label><br>
+                        <input type="tel" name="user-phone" id="user-phone" required><br>
+                    </div>
+            
+                    <div id="form-right">
+                        <!-- Preferred Contact Method -->
+                        <fieldset>
+                            <legend><b>Preferred Method of Contact:</b> <span class="required">*</span></legend>
+                            <input type="radio" name="preferred-contact" id="contact-phone" value="phone" required checked>
+                            <label for="contact-phone">Phone</label>
+                            <input type="radio" name="preferred-contact" id="contact-email" value="email">
+                            <label for="contact-email">Email</label>
+                        </fieldset>
+            
+                        <!-- Comments -->
+                        <label for="user-comments">Comments:</label><br>
+                        <textarea name="user-comments" id="user-comments" required></textarea><br>
+            
+                        <!-- Submit -->
+                        <input type="submit" name="submit" id="submit" value="Submit Form">
+                    </div>
+                </form>
+            </section>
+        </section>
+
+         <!-- Footer -->
+    <footer>
+        <p>Copyright &copy; 2023 - Elevated Resorts</p>
+        <small>This site is for educational purposes only.</small>
+    </footer>
+    </main>
+</body>
+</html>
